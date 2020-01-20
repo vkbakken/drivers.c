@@ -3,6 +3,8 @@
 
 #include <nrf.h>
 
+#include "atomic.h"
+
 
 #define RTC_NVIC_PRIO           (6)
 #define RTC_IRQ_n               (RTC1_IRQn)
